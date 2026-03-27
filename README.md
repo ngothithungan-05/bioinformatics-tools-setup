@@ -7,7 +7,6 @@ This guide provides step-by-step instructions for setting up essential bioinform
 Before installing tools, you MUST configure the channels to ensure Conda finds the correct bioinformatics packages.
 
 ```bash
----
 conda init bash
 # Important: Run these in order to set channel priority
 conda config --add channels defaults
@@ -22,7 +21,6 @@ This environment includes tools for raw data filtering and quality assessment.
 Tools: ```fastp```, ```FastQC```
 ```
 Bash
----
 conda create -n qc_env -c bioconda fastp fastqc -y
 # To use: conda activate qc_env
 ```
@@ -31,7 +29,6 @@ This environment is used for de novo assembly and checking assembly completeness
 Tools: ```SPAdes```, ```BUSCO```, ```QUAST```
 ```
 Bash
----
 conda create -n assembly_env -c bioconda spades busco quast -y
 # To use: conda activate assembly_env
 ```
