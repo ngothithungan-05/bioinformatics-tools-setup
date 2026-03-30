@@ -2,7 +2,7 @@
 
 This guide provides step-by-step instructions for setting up essential bioinformatics tools using Conda environments.
 
-## Step 1: Initialize Conda & Configure Channels (Crucial!)
+## Step 1: Initialize Conda & Configure Channels 
 
 Before installing tools, you MUST configure the channels to ensure Conda finds the correct bioinformatics packages.
 
