@@ -53,6 +53,18 @@ VirulenceFinder is used to identify virulence genes in bacterial genomes.
 Bash
 conda create -n vf_env -c bioconda virulencefinder -y
 ```
+## Step 7: Save & Sync Your Work
+
+To ensure your documentation is visible on GitHub, follow these steps in your Codespace:
+
+1. **Save:** Press `Ctrl + S` on your `README.md` file.
+2. **Commit:** Click the **Source Control** icon on the left sidebar, type a message like "Complete 6-step setup", and click **Commit**.
+3. **Sync:** Click **Sync Changes** to push your updates to the GitHub repository.
+
+## Final Note: Power Off
+To save your free GitHub Codespaces hours:
+* Click on `Codespaces: [name]` (bottom-left corner).
+* Select **Stop Current Codespace**.
 ## Final Check: Verify All Environments
 
 After completing all steps, run the following command to see your list of environments:
